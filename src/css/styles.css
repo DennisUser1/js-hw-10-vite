@@ -5,8 +5,6 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +20,181 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tasks-list {
+  margin-top: 25px;
+}
+
+.back {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.image {
+  display: flex;
+}
+
+input {
+  font-size: 18px;
+  padding: 5px 10px;
+  border: 1px solid rgba(128, 128, 128, 1);
+}
+
+input:disabled  {
+  background-color: #cfcfcf;
+  border-color: #a0a0a0; 
+  pointer-events: none;
+}
+
+.start, .stop {
+  font-size: 18px;
+  padding: 5px 10px; 
+  border: 1px solid rgba(128, 128, 128, 1);
+  background: #4e75ff;
+  color: white;
+  cursor: pointer; 
+  transition: background 0.3s ease;
+}
+
+.start:hover, .stop:hover { 
+  background: #6c8cff;
+  color: white;
+  border-color: #5a6fca;
+}
+
+.start:disabled {
+  background: #cfcfcf;
+  border-color: #b0b0b0;
+  color: #6d6d6d;
+  cursor: not-allowed;
+}
+
+.start:disabled:hover {
+  background: #cfcfcf;
+  border-color: #b0b0b0;
+  color: #6d6d6d;
+  cursor: not-allowed;
+}
+
+.timer {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.value {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+span {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+input {
+  font-size: 16px; 
+  padding: 7.5px 8px; 
+  border: 1px solid rgba(128, 128, 128, 1);   
+}
+  .timer {
+    gap: 10px;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+  }
+
+  .value {
+    font-size: 18px;
+  }
+
+  .start, .stop {
+    font-size: 16px;
+    padding: 7.5px;
+  }
+}
+
+/* 2-snackbar.js */
+label input {
+  margin-top: 8px;  
+}
+
+.form input[type='number'], .form > label {
+  display: block;
+
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+input {
+  border: 2px solid #808080;
+  border-radius: 4px;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  outline: none; 
+  box-shadow: 0 0 4px rgba(78, 117, 255, 0.5);
+}
+
+input:hover {
+  border-color: 1px solid #000;
+}
+
+.form > label {
+  margin-bottom: 20px;
+}
+
+fieldset {
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+}
+
+fieldset:hover{
+  box-shadow: 0 0 4px rgba(78, 117, 255, 0.5);
+}
+
+fieldset legend {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form button {
+  width: 100%;
+  margin-top: 20px;
+  background: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: none;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.form button:hover {
+  background: #6c8cff;
+  transition: background 0.3s ease;
+}
+
+@media (min-width: 320px) and (max-width: 1960px) {
+  body {
+    height: 60vh;
+  }
 }

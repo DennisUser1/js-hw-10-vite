@@ -25,6 +25,10 @@ export default defineConfig(({ command }) => {
       },
       outDir: '../dist',
     },
+    server: {
+      host: true, 
+      port: 3000  
+    },
     plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
   };
 });
