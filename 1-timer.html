@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    
+  <script type="module" crossorigin src="/js-hw-10-vite/commonHelpers.js"></script>
+  <link rel="modulepreload" crossorigin href="/js-hw-10-vite/assets/modulepreload-polyfill-3cfb730f.js">
+  <link rel="modulepreload" crossorigin href="/js-hw-10-vite/assets/vendor-77e16229.js">
+  <link rel="stylesheet" href="/js-hw-10-vite/assets/vendor-7a007824.css">
+  <link rel="stylesheet" href="/js-hw-10-vite/assets/styles-f11613f2.css">
+</head>
+
+<body>
+  <section>
+    <a href="./index.html" class="back">Go to back</a>
+    <input type="text" id="datetime-picker">
+    <button class="start" type="button" data-start>Start</button>
+    <button class="stop" type="button" data-stop style="display: none;">Stop</button>
+    
+    <div class="timer">
+      <div class="field">
+        <span class="value" data-days>00</span>
+        <span class="label">Days</span>
+      </div>
+      <div class="field">
+        <span class="value" data-hours>00</span>
+        <span class="label">Hours</span>
+      </div>
+      <div class="field">
+        <span class="value" data-minutes>00</span>
+        <span class="label">Minutes</span>
+      </div>
+      <div class="field">
+        <span class="value" data-seconds>00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+</html>
