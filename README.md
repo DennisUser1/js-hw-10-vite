@@ -26,7 +26,7 @@
 
 <!-- <video width="" height="auto" src="https://goitlmsstorage.b-cdn.net/76df8282-68ae-497d-b6f9-31419fc40570127672390-2a51efe1-06fb-41dd-86dd-8542393d3043.mp4" preload="auto" controls></video> -->
 
-![video1](https://goitlmsstorage.b-cdn.net/76df8282-68ae-497d-b6f9-31419fc40570127672390-2a51efe1-06fb-41dd-86dd-8542393d3043.mp4)
+https://goitlmsstorage.b-cdn.net/76df8282-68ae-497d-b6f9-31419fc40570127672390-2a51efe1-06fb-41dd-86dd-8542393d3043.mp4
 
 **Елементи інтерфейсу**
 
@@ -173,7 +173,7 @@ import "izitoast/dist/css/iziToast.min.css";
 
 <!-- <video width="" height="auto" src="https://goitlmsstorage.b-cdn.net/77d8c684-4c05-4853-a075-e5cacb3275b92023-09-27%2017-11-12.mp4" preload="auto" controls></video> -->
 
-![video2](https://goitlmsstorage.b-cdn.net/77d8c684-4c05-4853-a075-e5cacb3275b92023-09-27%2017-11-12.mp4)
+https://goitlmsstorage.b-cdn.net/77d8c684-4c05-4853-a075-e5cacb3275b92023-09-27%2017-11-12.mp4
 
 Додай в HTML файл розмітку форми. Форма складається з поля вводу для введення значення затримки в мілісекундах, двох радіокнопок, які визначають те, як виконається проміс, і кнопки з типом `submit`, при кліку на яку має створюватися проміс.
 

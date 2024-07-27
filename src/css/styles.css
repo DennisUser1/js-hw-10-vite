@@ -53,6 +53,7 @@ input:disabled  {
   background-color: #cfcfcf;
   border-color: #a0a0a0; 
   pointer-events: none;
+  color: #6d6d6d;
 }
 
 .start, .stop {
